@@ -13,14 +13,21 @@
         android:theme="@style/Theme.PerúData"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
+            android:name=".menu.MarcoFragment"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Splash"
+            android:name=".login.LoginActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".login.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
