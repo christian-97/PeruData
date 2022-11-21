@@ -29,8 +29,15 @@ public class MarcoFragment extends AppCompatActivity {
         fragmentMenuBinding = MarcoFragmentBinding.inflate(getLayoutInflater());
         setContentView(fragmentMenuBinding.getRoot());
 
+        loadFragment(inicioFragment);
+        titulo("Inicio");
+
         BottomNavigationView navigationView =  findViewById(R.id.bottom_navigation);
         navigationView.setOnNavigationItemSelectedListener(mOnNa);
+    }
+
+    public void titulo(String titulo){
+        this.setTitle(titulo);
     }
 
     private final BottomNavigationView.OnNavigationItemSelectedListener mOnNa = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -39,15 +46,19 @@ public class MarcoFragment extends AppCompatActivity {
             switch (item.getItemId()){
                 case R.id.inicioFragment:
                     loadFragment(inicioFragment);
+                    titulo("Inicio");
                     return true;
                 case R.id.comprasFragment:
                     loadFragment(comprasFragment);
+                    titulo("Compras");
                     return true;
                 case R.id.carritoFragment:
                     loadFragment(carritoFragment);
+                    titulo("Carrito");
                     return true;
                 case R.id.yoFragment:
                     loadFragment(yoFragment);
+                    titulo("Yo");
                     return true;
             }
             return false;

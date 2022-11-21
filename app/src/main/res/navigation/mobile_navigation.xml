@@ -9,7 +9,7 @@
     <fragment
         android:id="@+id/inicioFragment"
         android:name="pe.edu.utp.perdata.menu.InicioFragment"
-        android:label="@string/valinicio"
+        android:label="label"
         tools:layout="@layout/fragment_inicio" />
     <fragment
         android:id="@+id/comprasFragment"
