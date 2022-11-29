@@ -8,7 +8,7 @@ import android.view.View;
 
 import pe.edu.utp.perdata.R;
 import pe.edu.utp.perdata.databinding.ActivityLoginBinding;
-import pe.edu.utp.perdata.menu.MarcoFragment;
+import pe.edu.utp.perdata.MarcoFragment;
 
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{

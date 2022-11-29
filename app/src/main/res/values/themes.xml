@@ -10,7 +10,7 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">#d32f2f</item>
+        <item name="android:statusBarColor">#9a0007</item>
         <!-- Customize your theme here. -->
 
         <item name="android:windowContentTransitions">true</item>
@@ -27,7 +27,7 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">#d32f2f</item>
+        <item name="android:statusBarColor">@color/rojo_oscuro</item>
         <!-- Customize your theme here. -->
 
         <item name="android:windowContentTransitions">true</item>
@@ -38,4 +38,13 @@
         <item name="android:background">@color/color_launch</item>
         <item name="colorPrimaryVariant">#ffff</item>
     </style>
+
+    <style name="Theme.PerúData.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.PerúData.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.PerúData.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

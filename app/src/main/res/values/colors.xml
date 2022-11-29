@@ -8,5 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="color_launch">#d32f2f</color>
+    <color name="rojo_oscuro">#9a0007</color>
 
 </resources>

@@ -8,22 +8,22 @@
 
     <fragment
         android:id="@+id/inicioFragment"
-        android:name="pe.edu.utp.perdata.menu.InicioFragment"
+        android:name="pe.edu.utp.perdata.menu.navegacionBaja.HomeFragment"
         android:label="label"
         tools:layout="@layout/fragment_inicio" />
     <fragment
         android:id="@+id/comprasFragment"
-        android:name="pe.edu.utp.perdata.menu.ComprasFragment"
+        android:name="pe.edu.utp.perdata.menu.navegacionBaja.ComprasFragment"
         android:label="fragment_compras"
         tools:layout="@layout/fragment_compras" />
     <fragment
         android:id="@+id/carritoFragment"
-        android:name="pe.edu.utp.perdata.menu.CarritoFragment"
+        android:name="pe.edu.utp.perdata.menu.navegacionBaja.CarritoFragment"
         android:label="fragmento de carrito"
         tools:layout="@layout/fragment_carrito" />
     <fragment
         android:id="@+id/yoFragment"
-        android:name="pe.edu.utp.perdata.menu.YoFragment"
+        android:name="pe.edu.utp.perdata.menu.navegacionBaja.YoFragment"
         android:label="fragmento yo"
         tools:layout="@layout/fragment_yo" />
 </navigation>
